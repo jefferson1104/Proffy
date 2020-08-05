@@ -2,35 +2,54 @@ import React from 'react';
 
 import whatsappIcon from '../../assets/images/icons/whatsapp.svg';
 
+import api from '../../services/api';
+
 //import css
 import './styles.css';
 
-function TeacherItem() {
+
+export interface Teacher {
+  id: number;
+  avatar: string;
+  bio: string;
+  cost: number;
+  name: string;
+  subject: string;
+  whatsapp: string;
+}
+
+interface TeacherItemProps {
+  teacher: Teacher;
+}
+
+const TeacherItem: React.FC<TeacherItemProps> = ({ teacher }) => {
+  function createNewConnection () {
+    api.post('connections', {
+      user_id: teacher.id,
+    });
+  }
+
   return (
     <article className="teacher-item">
       <header>
-        <img src="https://avatars2.githubusercontent.com/u/48356215?s=460&u=71601327f3c8678b4357d31e56428c06f76c598b&v=4" alt="Jefferson Soares"/>
+        <img src={teacher.avatar} alt="Jefferson Soares"/>
         <div>
-          <strong>Jefferson Soares</strong>
-          <span>Web Development</span>
+          <strong>{teacher.name}</strong>
+          <span>{teacher.subject}</span>
         </div>
       </header>
 
-      <p>
-        Entusiasta das melhores tecnologias de sistemas da informação.
-        <br /><br />
-        Apaixonado por programação web ensinando tecnologias novas e desenvolvendo aplicações que podem mudar a vida das pessoas, através dos meus cursos e da minha didática produtiva, mais de 200.000 pessoas ja passaram por um dos meus cursos e elevaram seu conhecimento ao um pŕoximo nível.
-      </p>
+      <p>{teacher.bio}</p>
 
       <footer>
         <p>
           Preço/Hora
-          <strong>R$ 120,00</strong>
+          <strong>R$ {teacher.cost}</strong>
         </p>
-        <button type="button">
+        <a onClick={createNewConnection} href={`https://wa.me/${teacher.whatsapp}`}>
           <img src={whatsappIcon} alt="WhatsApp" />
           Entrar em contato
-        </button>
+        </a>
       </footer>
 
     </article>
