@@ -15,7 +15,7 @@
     <img alt="Made by Alquipo" src="https://img.shields.io/badge/made%20by-jefferson1104-blue">
   </a>
 
-  <a href="https://github.com/Alquipo/Proffys/commits/master">
+  <a href="https://github.com/jefferson1104/Proffy/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jefferson1104/Proffys?color=blue">
   </a>
 
