@@ -98,7 +98,7 @@ O projeto e divido em três partes:
 $ git clone https://github.com/jefferson1104/Proffy.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd Proffys
+$ cd Proffy
 ```
 
 ### 🎲 Rodando o Back End (servidor)
