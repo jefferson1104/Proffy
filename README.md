@@ -55,8 +55,6 @@ Projeto desenvolvido durante a NLW - Next Level Week#02 oferecida pela [Rocketse
 
 ## 🎨 Layout
 
-Design feito por [Tiago Luchtenberg](https://www.instagram.com/tiagoluchtenberg/)
-
 <table>
   <tr>
     <td colspan="2"><h4 align="center">Desktop</h4> </td>
@@ -107,7 +105,7 @@ $ cd Proffys
 
 ```bash
 # Acesse a pasta do projeto do servidor
-$ cd server
+$ cd backend
 
 # Instale as dependências
 $ npm install
@@ -167,33 +165,6 @@ $ npm run start
 ## :memo: Licença
 
 Este projeto esta sobe a licença MIT. Veja a [LICENÇA][license] para saber mais.
-
-## 🦸 Autor
-
-<h3 align="center">
-  <img style="border-radius: 50%" src="https://avatars2.githubusercontent.com/u/58523339?s=460&u=5bba39ceab3329cfff6c86b2d3dfdcd5f944c4c0&v=4" width="100px;" alt=""/>
-  <br/>
-  <strong>Alquipo Neto</strong> 🚀
-  <br/>
-  <br/>
-
- <a href="https://www.linkedin.com/in/alquiponeto" alt="LinkedIn" target="blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white" />
-  </a>
-
- <a href="https://wa.me/5522999989597/" alt="WhatsApp" target="blank">
-    <img src="https://img.shields.io/badge/-WhatsApp-25D366?style=flat-square&logo=WhatsApp&logoColor=white" />
-  </a>
-
-  <a href="mailto:alquiponeto@outlook.com.br?subject=Olá%20Alquipo" alt="Email" target="blank">
-    <img src="https://img.shields.io/badge/-alquiponeto@outlook.com.br-blue?style=flat-square&logo=Gmail&logoColor=white&link=mailto:alquiponeto@outlook.com.br" />
-  </a>
-
-<br/>
-
-Feito com ❤️ por Alquipo Neto 👋🏽 [Entre em contato!](https://www.linkedin.com/in/alquiponeto/)
-
-</h3>
 
 [nodejs]: https://nodejs.org/
 [typescript]: https://www.typescriptlang.org/
