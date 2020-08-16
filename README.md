@@ -7,16 +7,16 @@
 </h4>
 <p align="center">
 
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Alquipo/Proffys">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/jefferson1104/Proffys">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Alquipo/Proffys">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/jefferson1104/Proffys">
 	
-  <a href="https://www.linkedin.com/in/alquiponeto/">
-    <img alt="Made by Alquipo" src="https://img.shields.io/badge/made%20by-AlquipoNeto-blue">
+  <a href="https://www.linkedin.com/in/jeffersonsjunior/">
+    <img alt="Made by Alquipo" src="https://img.shields.io/badge/made%20by-jefferson1104-blue">
   </a>
 
   <a href="https://github.com/Alquipo/Proffys/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Alquipo/Proffys?color=blue">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jefferson1104/Proffys?color=blue">
   </a>
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?color=blue">
@@ -85,7 +85,7 @@ Para clonar e executar este aplicativo, você precisará de [Git](https://git-sc
 
 O projeto e divido em três partes:
 
-1. Back End (pasta server)
+1. Back End (pasta backend)
 2. Front End (pasta web)
 3. Mobile (pasta mobile)
 
@@ -95,7 +95,7 @@ O projeto e divido em três partes:
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/Alquipo/Proffys.git
+$ git clone https://github.com/jefferson1104/Proffy.git
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd Proffys
