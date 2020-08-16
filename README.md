@@ -7,9 +7,9 @@
 </h4>
 <p align="center">
 
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/jefferson1104/Proffys">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/jefferson1104/Proffy">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/jefferson1104/Proffys">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/jefferson1104/Proffy">
 	
   <a href="https://www.linkedin.com/in/jeffersonsjunior/">
     <img alt="Made by Alquipo" src="https://img.shields.io/badge/made%20by-jefferson1104-blue">
