@@ -2,59 +2,105 @@
     <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/logo.png"/>
 </h1>
 
-<h4 align="center"> 
-	NextLevelWeek 2.0 🚀
-</h4>
 <p align="center">
-
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/jefferson1104/Proffy">
-
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/jefferson1104/Proffy">
-	
   <a href="https://www.linkedin.com/in/jeffersonsjunior/">
     <img alt="Made by jefferson1104" src="https://img.shields.io/badge/made%20by-jefferson1104-blue">
   </a>
-
   <a href="https://github.com/jefferson1104/Proffy/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jefferson1104/Proffys?color=blue">
   </a>
-
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?color=blue">
-
 </p>
-<p align="center">
 
-<a target="_blank" href="https://nodejs.org/">
+<p align="center">
+  <a target="_blank" href="https://nodejs.org/">
     <img alt="ReactNative" src="https://img.shields.io/static/v1?color=brightgreen&label=Node&message=JS&?style=plastic&logo=Node.js">
   </a>
-
   <a href="https://reactjs.org/">
-  <img alt="ReactJS" src="https://img.shields.io/static/v1?color=blue&label=React&message=JS&?style=plastic&logo=React">
-</a>
-
+    <img alt="ReactJS" src="https://img.shields.io/static/v1?color=blue&label=React&message=JS&?style=plastic&logo=React">
+  </a>
  <a href="https://reactnative.dev/">
     <img alt="ReactNative" src="https://img.shields.io/static/v1?color=blue&label=React&message=Native&?style=plastic&logo=React">
   </a>
-  </p>
-
-## :information_source: O que é Next Level Week?
-
-O [NLW](https://nextlevelweek.com/inscricao/1) é uma semana prática com muito código, desafios, network e com um único objetivo: levá-lo ao próximo nível.
-Através do método da [Rocketseat][rs], você aprenderá novas ferramentas, tecnologias e descobrirá hacks que irão impulsionar sua carreira.
-Um evento online e totalmente gratuito que o ajudará a dar o próximo passo na sua evolução como desenvolvedor.
-
-## 💻 Projeto
-
-Proffy - É uma plataforma onde você pode estudar ou dar aulas. Um professor colocando seu dados, a matéria que quer ensinar, e escolher o melhor horário para dar a sua aula. Assim, os dados cadastrados ficaram disponíveis no site onde alunos podem escolher o professor que melhor se encaixa na em suas preferências.
-
-Projeto desenvolvido durante a NLW - Next Level Week#02 oferecida pela [Rocketseat](https://rocketseat.com.br/).
+</p>
 
 <h3 align="center">
-    <img alt="Example" title="Example" src=".github/thumbnail.png" width="500px" />
+  <img alt="Example" title="Example" src=".github/thumbnail.png" width="500px" />
 </h3>
 
-## 🎨 Layout
+# 💻 About project
+Proffy - It's a platform where you can study or teach. A teacher putting his data, the subject he wants to teach, and choosing the best time to teach his class. Thus, the registered data were available on the website where students can choose the teacher that best fits their preferences.
 
+
+# 🚀 How to run this project
+The project is divided into three parts:
+
+1. Back-end
+2. Front-end
+3. Mobile App
+
+> 💡 Both Front-end and Mobile App need the Back-end to be running to work.
+
+## :cyclone: Cloning the repository
+```bash
+# Cloning the repository
+$ git clone https://github.com/jefferson1104/Proffy.git
+
+# Access the project directory
+$ cd Proffy
+```
+
+## Running the web server (Back-end)
+```bash
+# Access the server project directory
+$ cd backend
+
+# Install dependencies
+$ npm install
+
+# Run the Migrates
+$ npm run knex:migrate
+
+# Run the API
+$ npm run start
+
+# The server will start at port:3333 - access http://localhost:3333
+```
+
+## Running the web application (Front-end)
+```bash
+# Access the front-end project directory
+$ cd web
+
+# Install dependencies
+$ npm install
+
+# Run app
+$ npm run start
+
+# The application will open at port:3000 - access http://localhost:3000
+```
+
+## Running the app (Mobile App)
+
+```bash
+# Access the Mobile App project directory
+$ cd mobile
+
+# Install dependencies
+$ npm install
+
+# Run app
+$ npm run start
+
+# The application will open at port:19002 - access http://localhost:19002
+
+# Use the app expo downloaded on your mobile to scan the QRCode
+```
+
+## 🎨 Layout
 <table>
   <tr>
     <td colspan="2"><h4 align="center">Desktop</h4> </td>
@@ -65,112 +111,3 @@ Projeto desenvolvido durante a NLW - Next Level Week#02 oferecida pela [Rocketse
     <td><img src=".github/preview-mobile.png" width=180 /></td><td><img src=".github/Home-mobile.png" width=180 /></td>
   </tr>
 </table>
-
-## :hammer: Tecnologias
-
-Este projeto foi desenvolvido com as seguintes Ferramentas:
-
-- **[React][reactjs]**
-- **[React Native][rn]**
-- **[Node.js][nodejs]**
-- **[Express](https://expressjs.com/)**
-- **[TypeScript][typescript]**
-- **[SQLite](https://www.sqlite.org/index.html)**
-- **[Expo][expo]**
-- **[VS Code][vs]**
-
-## 🚀 Como rodar este projeto
-
-Para clonar e executar este aplicativo, você precisará de [Git](https://git-scm.com), [Node.js][nodejs] Instalado em seu computador.
-
-O projeto e divido em três partes:
-
-1. Back End (pasta backend)
-2. Front End (pasta web)
-3. Mobile (pasta mobile)
-
-💡 Tanto o Front End quanto o Mobile precisam que o Back End esteja sendo executado para funcionar.
-
-### :cyclone: Clonando o repositório
-
-```bash
-# Clone este repositório
-$ git clone https://github.com/jefferson1104/Proffy.git
-
-# Acesse a pasta do projeto no terminal/cmd
-$ cd Proffy
-```
-
-### 🎲 Rodando o Back End (servidor)
-
-```bash
-# Acesse a pasta do projeto do servidor
-$ cd backend
-
-# Instale as dependências
-$ npm install
-
-# Execute as Migrates
-$ npm run knex:migrate
-
-# Execute a Aplicação
-$ npm run start
-
-# O servidor inciará na porta:3333 - acesse http://localhost:3333
-
-```
-
-### 🧭 Rodando a aplicação web (Front End)
-
-```bash
-
-# Vá para a pasta da aplicação Front End
-$ cd web
-
-# Instale as dependências
-$ npm install
-
-# Execute a aplicação
-$ npm run start
-
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
-```
-
-### 📱Rodando a aplicação mobile
-
-```bash
-# Vá para a pasta da aplicação Front End
-$ cd mobile
-
-# Instale as dependências
-$ npm install
-
-# Execute a aplicação
-$ npm run start
-
-# A aplicação será aberta na porta:19002 - acesse http://localhost:19002
-
-# Use o App expo baixado no seu celular para scan o QRCode
-```
-
-## 🤔 Como contribuir para o projeto
-
-- Faça um **fork** do projeto;
-- Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
-- Salve as alterações e crie uma mensagem de commit contando o que você fez:`git commit -m "feature: My new feature"`
-- Envie as suas alterações: `git push origin my-feature`
-
-> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](https://github.com/firstcontributions/first-contributions)
-
-## :memo: Licença
-
-Este projeto esta sobe a licença MIT. Veja a [LICENÇA][license] para saber mais.
-
-[nodejs]: https://nodejs.org/
-[typescript]: https://www.typescriptlang.org/
-[expo]: https://expo.io/
-[reactjs]: https://reactjs.org
-[rn]: https://facebook.github.io/react-native/
-[vs]: https://code.visualstudio.com/
-[rs]: https://rocketseat.com.br
-[license]: https://opensource.org/licenses/MIT
